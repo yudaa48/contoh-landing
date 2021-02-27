@@ -1,7 +1,7 @@
 {
-	"name": "terralogiq-wordpress-theme",
-	"version": "2.3.1",
-	"description": "Custom WordPress theme for Terralogiq website",
+	"name": "contoh-landing-page",
+	"version": "1.1.1",
+	"description": "Custom Landing Page",
 	"private": true,
 	"scripts": {
 		"test": "echo \"Error: no test specified\" && exit 1",
@@ -11,13 +11,13 @@
 	},
 	"repository": {
 		"type": "git",
-		"url": "git+ssh://git@gitlab.com/terralogiq/terralogiq-wordpress-theme.git"
+		"url": "git+ssh://git@github.com/yudaa48/contoh-landing.git"
 	},
-	"author": "Liffindra Angga Zaaldian <findra@terralogiq.com>",
+	"author": "Yuda Adi Pratama <yudaa0110@gmail.com>",
 	"bugs": {
-		"url": "https://gitlab.com/terralogiq/terralogiq-wordpress-theme/issues"
+		"url": "https://github.com/yudaa48/contoh-landing/issues"
 	},
-	"homepage": "https://gitlab.com/terralogiq/terralogiq-wordpress-theme#readme",
+	"homepage": "https://github.com/yudaa48/contoh-landing#readme",
 	"devDependencies": {
 		"@types/jquery": "^3.5.4",
 		"autoprefixer": "^10.0.4",
