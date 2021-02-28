@@ -4,96 +4,81 @@
  *
  * @link https://developer.wordpress.org/themes/basics/template-files/#template-partials
  *
- * @package Terralogiq
+ * @package landing
  */
 ?>
 
 	<?php get_template_part( 'template-parts/content-contact' ); ?>
 
-	<footer class="mt-auto">
-		<div class="container">
-			<div class="row">
-				<div class="col-sm-3 mb-4">
-					<p>Menu</p>
+  <footer id="footer">
+    <div class="footer-top">
+      <div class="container">
+        <div class="row">
 
-					<ul class="list-unstyled">
-						<li>
-							<a href="<?php echo get_bloginfo( 'wpurl' ) ?>/services/">Services</a>
-						</li>
-						<li>
-							<a href="<?php echo get_bloginfo( 'wpurl' ) ?>/case-study/">Case Study</a>
-						</li>
-						<li>
-							<a href="<?php echo get_bloginfo( 'wpurl' ) ?>/projects/">Projects</a>
-						</li>
-						<li>
-							<a href="Https://www.appsensi.com/" target="_blank">Appsensi</a>
-						</li>
-					</ul>
-				</div>
+          <div class="col-lg-3 col-md-6 footer-info">
+            <h3>Mamba</h3>
+            <p>
+              A108 Adam Street <br>
+              NY 535022, USA<br><br>
+              <strong>Phone:</strong> +1 5589 55488 55<br>
+              <strong>Email:</strong> info@example.com<br>
+            </p>
+            <div class="social-links mt-3">
+              <a href="#" class="twitter"><i class="bx bxl-twitter"></i></a>
+              <a href="#" class="facebook"><i class="bx bxl-facebook"></i></a>
+              <a href="#" class="instagram"><i class="bx bxl-instagram"></i></a>
+              <a href="#" class="google-plus"><i class="bx bxl-skype"></i></a>
+              <a href="#" class="linkedin"><i class="bx bxl-linkedin"></i></a>
+            </div>
+          </div>
 
-				<div class="col-sm-3 mb-4">
-					<p>Information</p>
+          <div class="col-lg-2 col-md-6 footer-links">
+            <h4>Useful Links</h4>
+            <ul>
+              <li><i class="bx bx-chevron-right"></i> <a href="#">Home</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="#">About us</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="#">Services</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="#">Terms of service</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="#">Privacy policy</a></li>
+            </ul>
+          </div>
 
-					<ul class="list-unstyled">
-						<li>
-							<a href="<?php echo get_bloginfo( 'wpurl' ) ?>/about-us/">About Us</a>
-						</li>
-						<li>
-							<a href="<?php echo get_bloginfo( 'wpurl' ) ?>/blog/">Blog</a>
-						</li>
-						<li>
-							<a href="<?php echo get_bloginfo( 'wpurl' ) ?>/privacy-policy/">Privacy Policy</a>
-						</li>
-						<li>
-							<a href="<?php echo get_bloginfo( 'wpurl' ) ?>/terms-and-conditions/">Terms & Conditions</a>
-			 			</li>
-					</ul>
-				</div>
+          <div class="col-lg-3 col-md-6 footer-links">
+            <h4>Our Services</h4>
+            <ul>
+              <li><i class="bx bx-chevron-right"></i> <a href="#">Web Design</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="#">Web Development</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="#">Product Management</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="#">Marketing</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="#">Graphic Design</a></li>
+            </ul>
+          </div>
 
-				<div class="col-sm-3 mb-4">
-					<p>About Us</p>
+          <div class="col-lg-4 col-md-6 footer-newsletter">
+            <h4>Our Newsletter</h4>
+            <p>Tamen quem nulla quae legam multos aute sint culpa legam noster magna</p>
+            <form action="" method="post">
+              <input type="email" name="email"><input type="submit" value="Subscribe">
+            </form>
 
-					<p>We are the first and only Google Maps Premier Partner in Indonesia. Focusing on delivering Google geospatial products, solutions and services to add value to our customer's business.</p>
-				</div>
+          </div>
 
-				<div class="col-sm-3 mb-4"> 
-					<p>Latest Article</p>
-					<?php foreach (get_posts(array('numberposts' => 1)) as $post) : setup_postdata($post);?>
-						<p><?php the_title(); ?></p>
-						<small><?php echo get_the_date(); ?></small><br>
+        </div>
+      </div>
+    </div>
 
-						<a href="<?php the_permalink(); ?>" target="_blank" class="text-white"> Learn More &rarr;</a>
-					<?php endforeach; ?>
-				</div>
-			</div>
-
-			<div class="row border-top pt-3">
-				<div class="col-sm-8 footer__copyright">
-					Copyright &copy; <?php echo date('Y'); ?> PT. Terralogiq Integrasi Solusi
-				</div>
-
-				<div class="col-sm-4 footer__social-media">
-					<a href="https://www.linkedin.com/company/terralogiq/" target="_blank">
-						<img src="<?php echo get_theme_file_uri( 'assets/images/social-icon--linkedin.webp' ); ?>" alt="">
-					</a>
-					<a href="https://web.facebook.com/terralogiq.official" target="_blank">
-						<img src="<?php echo get_theme_file_uri( 'assets/images/social-icon--facebook.webp' ); ?>" alt="">
-					</a>
-					<a href="https://www.instagram.com/terralogiq/" target="_blank">
-						<img src="<?php echo get_theme_file_uri( 'assets/images/social-icon--instagram.webp' ); ?>" alt="">
-					</a>
-					<a href="https://www.youtube.com/channel/UCxSxEAF-FFgOI8oEsBmUzuQ" target="_blank">
-						<img src="<?php echo get_theme_file_uri( 'assets/images/social-icon--youtube.webp' ); ?>" alt="">
-					</a>
-				</div>
-			</div>
-		</div>
-		<!-- Start of HubSpot Embed Code -->
-		<script type="text/javascript" id="hs-script-loader" async defer src="//js.hs-scripts.com/8611993.js"></script>
-		<!-- End of HubSpot Embed Code -->
-	</footer>
+    <div class="container">
+      <div class="copyright">
+        &copy; Copyright <strong><span>Mamba</span></strong>. All Rights Reserved
+      </div>
+      <div class="credits">
+        Designed by <a href="https://bootstrapmade.com/">BootstrapMade</a>
+      </div>
+    </div>
+  </footer>
+  <a href="#" class="back-to-top"><i class="icofont-simple-up"></i></a>
 
 	<?php wp_footer(); ?>
+
 </body>
 </html>

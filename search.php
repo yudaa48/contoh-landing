@@ -4,7 +4,7 @@
  *
  * @link https://developer.wordpress.org/themes/basics/template-hierarchy/
  *
- * @package Terralogiq
+ * @package landing Page
  */
 
 get_header();
