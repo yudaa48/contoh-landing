@@ -7,10 +7,10 @@ get_header();
       <div class="container">
 
         <div class="d-flex justify-content-between align-items-center">
-          <h2>Portfolio Details</h2>
+          <h2><?php echo get_the_title()?></h2>
           <ol>
             <li><a href="<?php echo get_bloginfo( 'wpurl' ) ?>">Home</a></li>
-            <li>Portfolio Details</li>
+            <li><?php echo get_the_title()?></li>
           </ol>
         </div>
 

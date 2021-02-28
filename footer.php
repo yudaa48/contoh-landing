@@ -60,10 +60,10 @@
 
     <div class="container">
       <div class="copyright">
-        &copy; Copyright <strong><span>Mamba</span></strong>. All Rights Reserved
+        Copyright &copy; <?php echo date('Y'); ?> <strong><span>Comika Entertainment</span></strong>. All Rights Reserved
       </div>
       <div class="credits">
-        Designed by <a href="https://bootstrapmade.com/">BootstrapMade</a>
+        Designed by <a href="#">Web Dev Duy</a>
       </div>
     </div>
   </footer>
