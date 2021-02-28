@@ -1,15 +1,4 @@
 <?php
-/**
- * The single post template file
- *
- * Used when a single post is queried. For this and all other query templates,
- * index.php is used if the query template is not present.
- *
- * @link https://developer.wordpress.org/themes/basics/template-hierarchy/
- *
- * @package Landing Page
- */
-
 get_header();
 ?>
 

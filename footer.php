@@ -1,14 +1,5 @@
 <?php
-/**
- * The template for displaying the footer
- *
- * @link https://developer.wordpress.org/themes/basics/template-files/#template-partials
- *
- * @package landing
- */
 ?>
-
-	<?php get_template_part( 'template-parts/content-contact' ); ?>
 
   <footer id="footer">
     <div class="footer-top">
