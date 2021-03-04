@@ -6,10 +6,10 @@ get_header();
 		<div class="container">
 			<div class="section--blog__content">
 				<div class="row pb-5">
-					<div class="col-md-6 services">
+					<div class="col-md-6">
 						<h1>Our Blog</h1>
 
-						<p class="lead">Read the latest articles for Google Maps and a wide variety of industry updates</p>
+						<p class="lead">Read the latest articles from the oven of Comika Entertainment</p>
 					</div>
 				</div>
 			</div>
